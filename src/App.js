@@ -1,3 +1,6 @@
+import React from "react";
+import ExpenseInput from "./components/ExpenseInput/ExpenseInput";
+
 import NewExpense from "./components/Expenses/NewExpense";
 
 const App = () => {
@@ -30,7 +33,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Expense tracker</h1>
+      <ExpenseInput />
       <NewExpense items={expenses}></NewExpense>
     </div>
   );
