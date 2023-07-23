@@ -11,7 +11,6 @@ const ExpenseItem = (props) => {
   const clickhandler = () => {
     setTitle("updated!!") // seting updated value to second element of use state array
   };
-  console.log("Expense item rendered just NOW !!!!");
 
   return (
     <Card className="expense-item">
