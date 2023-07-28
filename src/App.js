@@ -13,7 +13,7 @@ const DUMMY__TEXT = [
     id: "e2",
     title: "New TV",
     amount: 799.49,
-    date: new Date(),
+    date: new Date(2022, 7, 24),
   },
   {
     id: "e3",
