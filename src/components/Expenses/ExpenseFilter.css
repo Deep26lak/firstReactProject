@@ -16,9 +16,11 @@
     margin-bottom: 0.5rem;
   }
   
-  .expenses-filter select {
+  .expenses-filter select , option {
     font: inherit;
     padding: 0.5rem 3rem;
     font-weight: bold;
     border-radius: 6px;
+    cursor: pointer;
+    
   }
