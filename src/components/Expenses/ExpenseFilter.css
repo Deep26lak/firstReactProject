@@ -1,6 +1,7 @@
 .expenses-filter {
     color: white;
     padding: 0 1rem;
+    
   }
   
   .expenses-filter__control {
@@ -18,6 +19,7 @@
   
   .expenses-filter select , option {
     font: inherit;
+    background-color: transparent;
     padding: 0.5rem 3rem;
     font-weight: bold;
     border-radius: 6px;

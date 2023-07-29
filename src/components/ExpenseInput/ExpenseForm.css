@@ -2,8 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  width: 48rem;
-justify-content: left;
+  width: 100%;
+  justify-content: left;
   margin-bottom: 1rem;
   text-align: left;
   margin: 1rem auto;
@@ -19,9 +19,14 @@ justify-content: left;
   font: inherit;
   padding: 0.5rem;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border: .5px solid #ccc;
+  background-color: transparent;
+  /* box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .1); */
   width: 20rem;
+  display: flex;
   max-width: 100%;
+  color: white;
+  font-weight: bold;
 }
 
 .new-expense__actions {
@@ -29,3 +34,4 @@ justify-content: left;
   justify-content: right;
   margin: 1.5rem 0;
 }
+
